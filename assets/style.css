@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    padding: 20px;
+    background-color: rgba(57, 162, 176, 0.796);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.links {
+    display: inline;
+    text-align: initial;
+
+}
