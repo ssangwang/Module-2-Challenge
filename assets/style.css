@@ -6,17 +6,34 @@
 
 .title {
     padding: 20px;
-    background-color: rgba(57, 162, 176, 0.796);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end
+    font-family: Impact, sans-serif;
+    background-color: #a053d0;
+    color: #ffffff;
+}
+
+.title h1{
+    display: inline-block;
+    font-size: 48px;
+}
+
+.title div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.title div ul {
+    list-style-type: none;
+}
+.title div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
 }
 
 .links {
-    display: inline;
-    text-align: initial;
+    display:flex;
+
 
 }
