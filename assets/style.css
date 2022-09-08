@@ -2,18 +2,29 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
+}
+
+body{
+    background-image: url("imging.jpg");
+    background-size: cover;
 }
 
 .title {
     padding: 20px;
-    font-family: Impact, sans-serif;
-    background-color: #a053d0;
+    background-color: black;
     color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    position: sticky
 }
 
-.title h1{
-    display: inline-block;
+.title h1 {
     font-size: 48px;
+    border-radius: 10px;
+
 }
 
 .title div {
@@ -21,6 +32,7 @@
     margin-right: 20px;
     float: right;
     font-size: 20px;
+
 }
 
 .title div ul {
@@ -29,11 +41,22 @@
 .title div ul li {
     display: inline-block;
     margin-left: 25px;
-    
+    text-decoration: underline;
 }
 
 .links {
     display:flex;
-
-
 }
+
+.first-column {
+    float:left;
+    font-size: 40px;
+    color:#ffffff;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 25%;
+    position: relative;
+    border-right: 3px solid black
+    
+}
+
