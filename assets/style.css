@@ -48,15 +48,23 @@ body{
     display:flex;
 }
 
-.first-column {
-    float:left;
+.first-section h2 {
+    float: left;
     font-size: 40px;
-    color:#ffffff;
+    color: #ffffff;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 100px;
     width: 25%;
     position: relative;
-    border-right: 3px solid black
+    border-right: 3px solid black;
+    margin-right: 100px;
     
 }
 
+.first-section p {
+    font-size: 20px;
+    color: white;
+    padding-block: 19px;
+    width: max-content;
+    margin-left: -90px;
+}
