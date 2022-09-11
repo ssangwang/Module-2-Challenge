@@ -5,7 +5,7 @@
     font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
 }
 
-body{
+body {
     background-image: url("imging.jpg");
     background-size: cover;
 }
@@ -38,6 +38,7 @@ body{
 .title div ul {
     list-style-type: none;
 }
+
 .title div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -45,7 +46,7 @@ body{
 }
 
 .links {
-    display:flex;
+    display: flex;
 }
 
 .first-section h2 {
@@ -56,9 +57,8 @@ body{
     margin-left: 100px;
     width: 25%;
     position: relative;
-    border-right: 3px solid black;
     margin-right: 100px;
-    
+    border-right: 3px solid black
 }
 
 .first-section p {
@@ -67,4 +67,25 @@ body{
     padding-block: 19px;
     width: max-content;
     margin-left: -90px;
+    margin-bottom: 150px;
+
+}
+
+p1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p3 {
+    font-size: 30px;
+    color: white;
+    font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
+    word-spacing: 100px;
+}
+
+p3 ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: underline;
+    margin-top: 50px;
 }
