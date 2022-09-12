@@ -10,7 +10,7 @@
 /* Top Header & Nav Bar */
 
 body {
-    background-image: url("imging.jpg");
+    background-image: url(../images/imging.jpg);
     background-size: cover;
 }
 
