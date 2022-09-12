@@ -5,6 +5,8 @@
     font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
 }
 
+/* Top Header */
+
 body {
     background-image: url("imging.jpg");
     background-size: cover;
@@ -18,7 +20,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    position: sticky
+    position:sticky;
 }
 
 .title h1 {
@@ -46,9 +48,16 @@ body {
 
 }
 
-.links {
-    display: flex;
+a {
+    color:#ffffff;
 }
+
+a:hover{
+background-color: #ffffff;
+color: black;
+}
+
+/* About me Section */
 
 .first-section h2 {
     float: left;
@@ -76,6 +85,8 @@ body {
     margin-left: 455px;
 }
 
+/* Work Section */
+
 p1 {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +95,33 @@ p1 {
     margin-bottom: 150px;
     
 }
+.container{
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    bottom: 24px;
+    left: 9px;
+    background-color:black;
+    color: white;
+    padding-left: 21px;
+    padding-right: 10px;
+    height: 50px;
+}
+
+img {
+    border: 7px solid black;
+    margin: 3px;
+    filter: blur(4px);
+    transition: 0.5s ease-in-out;
+}
+
+img:hover {
+filter: blur(0);
+transition: 0.5s ease-in-out;
+}
+
+/* Contact Me Section */
 
 p3 {
     font-size: 30px;
