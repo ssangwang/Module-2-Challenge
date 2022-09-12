@@ -54,26 +54,28 @@ body {
     font-size: 40px;
     color: #ffffff;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 75px;
     width: 25%;
     position: relative;
-    margin-right: 100px;
-    border-right: 3px solid black
 }
+
 
 .first-section p {
     font-size: 20px;
     color: white;
     padding-block: 19px;
     width: max-content;
-    margin-left: -90px;
     margin-bottom: 150px;
-
+    border-left: 3px solid black;
+    padding-left: 90px
 }
 
 p1 {
     display: flex;
     flex-wrap: wrap;
+    border-left: 10px solid black;
+    padding-left: 90px
+    
 }
 
 p3 {
@@ -88,4 +90,5 @@ p3 ul li {
     display: inline-block;
     text-decoration: underline;
     margin-top: 50px;
+
 }
