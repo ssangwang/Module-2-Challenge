@@ -5,8 +5,6 @@
     font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
 }
 
-
-
 /* Top Header & Nav Bar */
 
 body {
@@ -161,14 +159,35 @@ p3 ul li {
 
 }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+/* Tablets */
+@media screen and (max-width: 992px) {
+    .first-section p {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .title{
+        width:1335px;
+    }
+
+    .border {
+        margin-left:320px;
+    }
 }
 
-/* Tabled Portrait */
+/* Large Smartphones */
 @media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+ .first-section p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-block:0px;
+    margin-right:0px;
+
+ }
+ 
+ .border{
+    margin-left:270px;
+ }
 }
