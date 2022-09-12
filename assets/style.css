@@ -5,6 +5,8 @@
     font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
 }
 
+
+
 /* Top Header & Nav Bar */
 
 body {
@@ -157,4 +159,16 @@ p3 ul li {
     display: inline-block;
     text-decoration: underline;
 
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
