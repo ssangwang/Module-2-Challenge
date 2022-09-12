@@ -5,7 +5,7 @@
     font-family: hn-display, HelveticaNeue, Helvetica, helvetica, sans-serif;
 }
 
-/* Top Header */
+/* Top Header & Nav Bar */
 
 body {
     background-image: url("imging.jpg");
@@ -48,11 +48,19 @@ body {
 
 }
 
-a {
-    color:#ffffff;
+a{
+    color: white;
 }
 
 a:hover{
+    color:black;
+}
+
+.nav {
+    color:white;
+}
+
+.nav:hover{
 background-color: #ffffff;
 color: black;
 }
